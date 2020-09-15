@@ -26,13 +26,9 @@ public class Main {
         if (finalTemp > 100)
             finalPhase = "vapor";
         System.out.println("Mass: " + mass + "g");
-        System.out.println("Initial tempeature: " + initialTemp + "C " +
+        System.out.println("Initial tempeature: " + initialTemp + "C " + initialPhase);
 
-                initialPhase);
-
-        System.out.println("Final tempeature: " + finalTemp + "C " + finalPhase
-
-                + "\n");
+        System.out.println("Final tempeature: " + finalTemp + "C " + finalPhase + "\n");
 
         boolean endothermic = false;
         if (finalTemp > initialTemp)
